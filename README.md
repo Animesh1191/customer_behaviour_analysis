@@ -88,7 +88,7 @@ Steps
 Clone the Repository:
 
 Bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/Animesh1191/customer_behaviour_analysis.git
 Install Python Dependencies:
 
 Bash
