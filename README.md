@@ -109,4 +109,5 @@ Portfolio:
 
 Email: work.animeshgond1191@gamil.com
 
-LinkedIn: https://www.linkedin.com/in/animesh-gond-b40492318/
+LinkedIn: linkedin.com/in/animeshgond
+
