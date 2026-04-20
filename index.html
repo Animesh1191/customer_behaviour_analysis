@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Portfolio</title>
+    <style>
+        /* Modern Portfolio Styling */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: auto; }
+        header { text-align: center; padding: 40px 0; }
+        
+        .project-card { background: #fff; padding: 25px; margin-bottom: 30px; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.08); transition: transform 0.2s; }
+        .project-card:hover { transform: translateY(-5px); }
+        
+        h2 { color: #2c3e50; margin-top: 0; }
+        .tag { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; text-transform: uppercase; margin-bottom: 15px; color: white; }
+        
+        /* Technology Colors */
+        .jupyter { background: #f37626; }
+        .sql { background: #00758f; }
+        .pbi { background: #f2c811; color: #000; }
+        
+        /* Responsive IFrame for Power BI */
+        .iframe-container { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-top: 15px; }
+        .iframe-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        
+        a.btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #3498db; color: white; border-radius: 5px; text-decoration: none; font-weight: bold; }
+        a.btn:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>My Coustomer Data Analysis Project</h1>
+        <p>Showcasing my work in Analytics, Visualization, and Database Management.</p>
+    </header>
+
+    <div class="project-card">
+        <span class="tag jupyter">Jupyter Notebook</span>
+        <h2>Data Analysis Report</h2>
+        <p>Detailed analysis of sales trends using Python, Pandas, and Matplotlib.</p>
+        <a href="https://github.com/Animesh1191/customer_behaviour_analysis/blob/main/Customer_Shopping_Behaviour_Analysis.ipynb" class="btn" target="_blank">View Analysis</a>
+    </div>
+
+    <div class="project-card">
+    <span class="tag pbi">Visual Report</span>
+    <h2>Executive Sales Dashboard</h2>
+    <p>Click the image below to view the PDF report.</p>
+    
+    <a href="https://github.com/Animesh1191/customer_behaviour_analysis/raw/main/Customer_behaviour_report.pdf" target="_blank" rel="noopener noreferrer">
+        <img src="/Screenshot 2026-04-21 034507.png" 
+        alt="Sales Dashboard" 
+        style="width:100%; border-radius:8px; border: 1px solid #ddd; cursor: pointer;">
+    </a>
+</div>
+
+    <div class="project-card">
+        <span class="tag sql">SQL</span>
+        <h2>Database Schema & Queries</h2>
+        <p>Optimization of data retrieval using complex joins and window functions.</p>
+        <a href="https://github.com/Animesh1191/customer_behaviour_analysis/blob/main/customer_behabiour_PostgreSQL.sql" class="btn" target="_blank">View on GitHub</a>
+    </div>
+</div>
+
+</body>
+</html>
