@@ -1,163 +1,177 @@
-Customer Shopping Behavior Analysis
-📌 Project Overview
+🛍️ Customer Shopping Behavior Analysis
 
-This project analyzes customer shopping behavior to identify purchasing patterns, customer preferences, sales trends, and business opportunities. The analysis combines Python, PostgreSQL, and Power BI to transform raw customer transaction data into actionable business insights.
+    An End-to-End Data Analytics Project using Excel, Python, PostgreSQL, SQL, and Power BI to uncover customer purchasing patterns, sales trends, and business insights.
 
-The objective is to help businesses understand customer demographics, product preferences, purchasing frequency, and revenue drivers to support data-driven decision-making.
+📖 Project Overview
 
-🎯 Business Objectives
-Analyze customer purchasing behavior and spending patterns.
-Identify top-performing product categories.
-Understand customer demographics and preferences.
-Evaluate subscription and loyalty behavior.
-Analyze seasonal purchasing trends.
-Generate actionable insights through interactive dashboards.
-📂 Dataset Information
+    Understanding customer behavior is essential for improving customer experience, increasing revenue, and making data-driven business decisions.
+    
+    This project analyzes a retail customer shopping dataset containing customer demographics, purchasing habits, product preferences, subscription behavior, and seasonal trends. Using a complete analytics workflow—from
+    data preparation in Excel to dashboard creation in Power BI—the project transforms raw transactional data into meaningful business insights.
 
-Dataset: Customer Shopping Behavior Dataset
+🎯 Project Objectives
 
-Records: 3,900 Customers
+✔ Analyze customer purchasing behavior
 
-Features: 18 Columns
+✔ Identify high-performing product categories
 
-Key Attributes
-Customer ID
-Age
-Gender
-Item Purchased
-Category
-Purchase Amount (USD)
-Location
-Season
-Review Rating
-Subscription Status
-Shipping Type
-Previous Purchases
-Payment Method
-Frequency of Purchases
-🛠️ Tools & Technologies
-Data Analysis
-Python
-Pandas
-NumPy
-Database
-PostgreSQL
-SQL
-Visualization
-Power BI
-Development Environment
-Jupyter Notebook
-VS Code
+✔ Understand demographic-based shopping patterns
+
+✔ Evaluate customer loyalty and subscription impact
+
+✔ Analyze seasonal sales trends
+
+✔ Measure customer satisfaction through ratings
+
+✔ Build an interactive dashboard for business decision-making
+
+
+| Attribute | Description                   |
+| --------- | ----------------------------- |
+| Records   | 3,900 Customers               |
+| Features  | 18 Columns                    |
+| Data Type | Retail Customer Shopping Data |
+
+
+Key Columns
+- Customer ID
+- Age
+- Gender
+- Item Purchased
+- Category
+- Purchase Amount (USD)
+- Location
+- Season
+- Review Rating
+- Subscription Status
+- Shipping Type
+- Previous Purchases
+- Payment Method
+- Frequency of Purchases
+
+
+| Tool                   | Purpose                                          |
+| ---------------------- | ------------------------------------------------ |
+| Microsoft Excel        | Data Cleaning, Validation & Preliminary Analysis |
+| Python (Pandas, NumPy) | Data Processing & EDA                            |
+| PostgreSQL             | Database Management                              |
+| SQL                    | Business Query Analysis                          |
+| Power BI               | Interactive Dashboard Development                |
+| Jupyter Notebook       | Analysis Environment                             |
+| VS Code                | Development Environment                          |
+
+
 🔄 Project Workflow
-1. Data Collection
-Imported customer shopping behavior dataset.
-Verified data quality and structure.
-2. Data Cleaning & Preparation
-Checked missing values.
-Removed inconsistencies.
-Validated data types.
-Prepared data for analysis.
-3. SQL Analysis
-Created database tables in PostgreSQL.
-Performed analytical queries.
-Extracted business insights using SQL.
-4. Exploratory Data Analysis (EDA)
-Customer demographics analysis.
-Category-wise sales analysis.
-Seasonal trend analysis.
-Customer retention analysis.
-5. Dashboard Development
+📥 1. Data Collection
+- Imported customer shopping dataset.
+- Verified dataset structure and quality.
 
-Created an interactive Power BI dashboard featuring:
 
-Total Revenue
-Total Customers
-Average Purchase Value
-Product Category Analysis
-Gender Distribution
-Seasonal Trends
-Subscription Analysis
-Customer Satisfaction Metrics
-📊 Key Business Insights
-Customer Demographics
-Male customers represent a larger share of purchases.
-Most customers belong to the 25–45 age group.
-Product Performance
-Clothing and Accessories generate significant sales volume.
-Certain product categories consistently outperform others.
-Customer Loyalty
-Customers with subscriptions tend to make more repeat purchases.
-Previous purchase history strongly influences spending behavior.
-Seasonal Trends
-Purchasing behavior varies across seasons.
-Seasonal demand creates opportunities for targeted marketing campaigns.
-Customer Satisfaction
-Review ratings indicate generally positive customer experiences.
-Higher-rated products contribute to repeat purchases.
+📊 2. Data Preparation using Excel
+- Checked missing values.
+- Identified duplicate records.
+- Standardized formatting.
+- Created Pivot Tables for preliminary insights.
+- Validated data before database loading.
+
+
+🐍 3. Data Cleaning & EDA using Python
+- Imported dataset using Pandas.
+- Performed exploratory data analysis.
+- Identified customer behavior patterns.
+- Generated descriptive statistics.
+- Extracted business insights.
+
+
+🗄️ 4. Database Management using PostgreSQL
+- Created relational database tables.
+- Imported cleaned dataset.
+- Performed SQL-based analysis.
+- Generated KPI-driven reports.
+
+
+📈 5. Dashboard Development using Power BI
+- Created interactive dashboards.
+- Designed KPI cards.
+- Added dynamic filters and slicers.
+- Built visual storytelling components.
+
+
+📌 Business Questions Solved
+
+Customer Analysis
+- What is the gender distribution of customers?
+- Which age groups contribute most to sales?
+- Which locations generate the highest revenue?
+
+Product Analysis
+- Which products are purchased most frequently?
+- Which categories generate maximum sales?
+
+Revenue Analysis
+- What are the top revenue-generating categories?
+- How does revenue vary across seasons?
+
+Customer Loyalty Analysis
+- Do subscribers spend more than non-subscribers?
+- How do previous purchases impact future spending?
+
+Satisfaction Analysis
+- What is the average review rating?
+- Which products receive the highest ratings?
+
+
 📈 Dashboard Features
+Executive KPIs
 
-✔ Interactive Filters & Slicers
+✔ Total Customers
 
-✔ Category-wise Analysis
+✔ Total Revenue
 
-✔ Customer Segmentation
+✔ Average Purchase Amount
 
-✔ Revenue Tracking
+✔ Average Review Rating
 
-✔ Seasonal Trend Monitoring
+✔ Subscription Rate
 
-✔ Subscription Insights
+
+Interactive Visualizations
+
+✔ Category-wise Sales Analysis
+
+✔ Seasonal Revenue Trends
+
+✔ Customer Demographics
+
+✔ Gender Distribution
+
+✔ Location-Based Revenue Analysis
+
+✔ Subscription vs Non-Subscription Analysis
 
 ✔ Customer Satisfaction Analysis
 
-📁 Project Files
-customer_behaviour_analysis/
-│
-├── Customer_Shopping_Behaviour_Analysis.ipynb
-├── customer_behaviour_PostgreSQL.sql
-├── customer_shopping_behavior.csv
-├── Customer_Behaviour_Dashboard.pbix
-├── Customer_behaviour_report.pdf
-├── Customer-Shopping-Behavior-Analysis.pptx
-├── index.html
-└── README.md
-🚀 How to Run the Project
-Clone Repository
-git clone https://github.com/Animesh1191/customer_behaviour_analysis.git
-Install Required Libraries
-pip install pandas numpy matplotlib seaborn
-Run Jupyter Notebook
-jupyter notebook
-Setup PostgreSQL Database
-Create database.
-Execute the SQL script provided.
-Import the dataset.
-Open Dashboard
+✔ Product Popularity Insights
 
-Open:
 
-Customer_Behaviour_Dashboard.pbix
+🔍 Key Insights Generated
 
-using Power BI Desktop.
+👥 Customer Insights
+- Male customers contributed slightly higher sales than female customers.
+- Customers aged 25–45 represented the largest customer segment.
 
-💼 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis (EDA)
-SQL Querying
-PostgreSQL
-Power BI Dashboard Development
-Data Visualization
-Business Intelligence
-Insight Generation
-Data Storytelling
-👨‍💻 Author
+🛒 Product Insights
+- Clothing and Accessories emerged as top-performing categories.
+- Several products consistently generated high purchase volumes.
+  
+💳 Customer Loyalty Insights
+- Subscribers demonstrated higher repeat purchase rates.
+- Customers with previous purchase history showed stronger engagement.
 
-Animesh Gond
+📅 Seasonal Insights
+- Seasonal fluctuations significantly impacted customer spending.
+- Certain seasons generated noticeably higher revenue.
 
-📧 Email: work.animeshgond1191@gmail.com
-
-🔗 LinkedIn: www.linkedin.com/in/animeshgond
-
-🔗 GitHub: Animesh1191 GitHub
-
-⭐ If you found this project useful, consider giving it a star on GitHub.
+⭐ Customer Satisfaction Insights
+- Most products maintained positive customer ratings.
+- Higher-rated products often experienced stronger repeat purchases.
