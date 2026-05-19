@@ -1,13 +1,13 @@
 🛍️ Customer Shopping Behavior Analysis
 
-    An End-to-End Data Analytics Project using Excel, Python, PostgreSQL, SQL, and Power BI to uncover customer purchasing patterns, sales trends, and business insights.
+An End-to-End Data Analytics Project using Excel, Python, PostgreSQL, SQL, and Power BI to uncover customer purchasing patterns, sales trends, and business insights.
 
 📖 Project Overview
 
-    Understanding customer behavior is essential for improving customer experience, increasing revenue, and making data-driven business decisions.
+Understanding customer behavior is essential for improving customer experience, increasing revenue, and making data-driven business decisions.
     
-    This project analyzes a retail customer shopping dataset containing customer demographics, purchasing habits, product preferences, subscription behavior, and seasonal trends. Using a complete analytics workflow—from
-    data preparation in Excel to dashboard creation in Power BI—the project transforms raw transactional data into meaningful business insights.
+This project analyzes a retail customer shopping dataset containing customer demographics, purchasing habits, product preferences, subscription behavior, and seasonal trends. Using a complete analytics workflow—from
+data preparation in Excel to dashboard creation in Power BI—the project transforms raw transactional data into meaningful business insights.
 
 🎯 Project Objectives
 
