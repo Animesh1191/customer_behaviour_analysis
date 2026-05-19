@@ -1,113 +1,163 @@
-Customer_Beahviour_Analysis : End-to-End Data Analytics Project
-
+Customer Shopping Behavior Analysis
 📌 Project Overview
-This project demonstrates an end-to-end data analysis pipeline, starting from raw data processing to actionable business insights. The goal was to analyze [Briefly describe goal, e.g., customer churn / sales trends / supply chain efficiency] to help stakeholders make data-driven decisions.
 
-Key Objectives:
+This project analyzes customer shopping behavior to identify purchasing patterns, customer preferences, sales trends, and business opportunities. The analysis combines Python, PostgreSQL, and Power BI to transform raw customer transaction data into actionable business insights.
 
-Clean and preprocess raw data using Python.
+The objective is to help businesses understand customer demographics, product preferences, purchasing frequency, and revenue drivers to support data-driven decision-making.
 
-Perform structured querying and data management using SQL.
+🎯 Business Objectives
+Analyze customer purchasing behavior and spending patterns.
+Identify top-performing product categories.
+Understand customer demographics and preferences.
+Evaluate subscription and loyalty behavior.
+Analyze seasonal purchasing trends.
+Generate actionable insights through interactive dashboards.
+📂 Dataset Information
 
-Visualize key performance indicators (KPIs) using Power BI.
+Dataset: Customer Shopping Behavior Dataset
 
-Present findings professionally using Gamma App.
+Records: 3,900 Customers
 
-📂 Dataset
-Source: [Link to Kaggle/Source or "Proprietary Data"]
+Features: 18 Columns
 
-Description: The dataset contains [Number] rows and [Number] columns, including attributes like [Column 1], [Column 2], and [Column 3].
+Key Attributes
+Customer ID
+Age
+Gender
+Item Purchased
+Category
+Purchase Amount (USD)
+Location
+Season
+Review Rating
+Subscription Status
+Shipping Type
+Previous Purchases
+Payment Method
+Frequency of Purchases
+🛠️ Tools & Technologies
+Data Analysis
+Python
+Pandas
+NumPy
+Database
+PostgreSQL
+SQL
+Visualization
+Power BI
+Development Environment
+Jupyter Notebook
+VS Code
+🔄 Project Workflow
+1. Data Collection
+Imported customer shopping behavior dataset.
+Verified data quality and structure.
+2. Data Cleaning & Preparation
+Checked missing values.
+Removed inconsistencies.
+Validated data types.
+Prepared data for analysis.
+3. SQL Analysis
+Created database tables in PostgreSQL.
+Performed analytical queries.
+Extracted business insights using SQL.
+4. Exploratory Data Analysis (EDA)
+Customer demographics analysis.
+Category-wise sales analysis.
+Seasonal trend analysis.
+Customer retention analysis.
+5. Dashboard Development
 
-Time Period: [e.g., Jan 2023 - Dec 2024]
+Created an interactive Power BI dashboard featuring:
 
-🛠️ Tools & Technologies Used
-Programming: Python (Pandas, NumPy, Matplotlib/Seaborn for EDA).
+Total Revenue
+Total Customers
+Average Purchase Value
+Product Category Analysis
+Gender Distribution
+Seasonal Trends
+Subscription Analysis
+Customer Satisfaction Metrics
+📊 Key Business Insights
+Customer Demographics
+Male customers represent a larger share of purchases.
+Most customers belong to the 25–45 age group.
+Product Performance
+Clothing and Accessories generate significant sales volume.
+Certain product categories consistently outperform others.
+Customer Loyalty
+Customers with subscriptions tend to make more repeat purchases.
+Previous purchase history strongly influences spending behavior.
+Seasonal Trends
+Purchasing behavior varies across seasons.
+Seasonal demand creates opportunities for targeted marketing campaigns.
+Customer Satisfaction
+Review ratings indicate generally positive customer experiences.
+Higher-rated products contribute to repeat purchases.
+📈 Dashboard Features
 
-Database: SQL (PostgreSQL / MySQL / SQL Server).
+✔ Interactive Filters & Slicers
 
-Visualization: Microsoft Power BI.
+✔ Category-wise Analysis
 
-Presentation: Gamma AI (for slide deck creation).
+✔ Customer Segmentation
 
-IDE/Environment: Jupyter Notebook, VS Code.
+✔ Revenue Tracking
 
-🚀 Project Steps & Workflow
-1. Data Loading & Cleaning (Python)
-Loaded the raw CSV/Excel dataset into a Pandas DataFrame.
+✔ Seasonal Trend Monitoring
 
-Handled missing values, removed duplicates, and corrected data types.
+✔ Subscription Insights
 
-Performed Exploratory Data Analysis (EDA) to identify outliers and distributions.
+✔ Customer Satisfaction Analysis
 
-Outcome: A clean, structured dataset ready for database ingestion.
-
-2. Database Management (SQL)
-Designed a relational schema and imported the cleaned data into [Your SQL Variant].
-
-Wrote complex SQL queries to extract specific insights (e.g., top-performing categories, month-over-month growth).
-
-Key Query: Calculated [Specific Metric] using Window Functions/CTEs.
-
-3. Dashboarding (Power BI)
-Connected Power BI directly to the SQL database.
-
-Created DAX measures for dynamic calculations (e.g., Total Sales, Conversion Rate).
-
-Designed an interactive dashboard with slicers for [Region, Time, Category].
-
-4. Reporting & Presentation
-Generated a comprehensive project report summarizing methodologies.
-
-Created a visually engaging presentation deck using Gamma AI to communicate results to non-technical stakeholders.
-
-📊 Dashboard & Visuals
-
-Shutterstock
-Note: Provide a screenshot of your Power BI dashboard here.
-
-💡 Key Insights & Results
-Based on the analysis, the following conclusions were drawn:
-
-Insight 1: [e.g., Sales peaked in Q4 due to holiday promotions, increasing revenue by 20%.]
-
-Insight 2: [e.g., Customer retention is lowest in the 'Basic Plan' segment.]
-
-Insight 3: [e.g., Region X is underperforming despite high marketing spend.]
-
-Recommendation: [e.g., Shift marketing budget to Region Y and introduce a loyalty program for Basic Plan users.]
-
-💻 How to Run This Project
-Prerequisites
-Python 3.x installed.
-
-PostgreSQL/MySQL installed.
-
-Power BI Desktop installed.
-
-Steps
-Clone the Repository:
-
-Bash
+📁 Project Files
+customer_behaviour_analysis/
+│
+├── Customer_Shopping_Behaviour_Analysis.ipynb
+├── customer_behaviour_PostgreSQL.sql
+├── customer_shopping_behavior.csv
+├── Customer_Behaviour_Dashboard.pbix
+├── Customer_behaviour_report.pdf
+├── Customer-Shopping-Behavior-Analysis.pptx
+├── index.html
+└── README.md
+🚀 How to Run the Project
+Clone Repository
 git clone https://github.com/Animesh1191/customer_behaviour_analysis.git
-Install Python Dependencies:
+Install Required Libraries
+pip install pandas numpy matplotlib seaborn
+Run Jupyter Notebook
+jupyter notebook
+Setup PostgreSQL Database
+Create database.
+Execute the SQL script provided.
+Import the dataset.
+Open Dashboard
 
-Bash
-pip install pandas numpy sqlalchemy matplotlib
-Setup Database:
+Open:
 
-Run the SQL scripts provided in the /sql folder to create tables and import data.
+Customer_Behaviour_Dashboard.pbix
 
-View Dashboard:
+using Power BI Desktop.
 
-Open dashboard.pbix in Power BI Desktop.
-
-📬 Contact
+💼 Skills Demonstrated
+Data Cleaning
+Exploratory Data Analysis (EDA)
+SQL Querying
+PostgreSQL
+Power BI Dashboard Development
+Data Visualization
+Business Intelligence
+Insight Generation
+Data Storytelling
+👨‍💻 Author
 
 Animesh Gond
 
-Portfolio: 
+📧 Email: work.animeshgond1191@gmail.com
 
-Email: work.animeshgond1191@gamil.com
+🔗 LinkedIn: www.linkedin.com/in/animeshgond
 
-LinkedIn: linkedin.com/in/animeshgond
+🔗 GitHub: Animesh1191 GitHub
 
+⭐ If you found this project useful, consider giving it a star on GitHub.
