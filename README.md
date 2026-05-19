@@ -175,3 +175,105 @@ Interactive Visualizations
 ⭐ Customer Satisfaction Insights
 - Most products maintained positive customer ratings.
 - Higher-rated products often experienced stronger repeat purchases.
+
+📁 Project Structure
+
+customer_behaviour_analysis/
+│
+├── 📄 Customer_Shopping_Behaviour_Analysis.ipynb
+├── 📄 customer_behaviour_PostgreSQL.sql
+├── 📄 customer_shopping_behavior.csv
+├── 📄 Customer_Behaviour_Dashboard.pbix
+├── 📄 Customer_behaviour_report.pdf
+├── 📄 Customer-Shopping-Behavior-Analysis.pptx
+├── 📄 index.html
+├── 📄 README.md
+│
+└── 📁 Assets
+
+
+🚀 How to Run This Project
+Step 1: Clone Repository
+git clone https://github.com/Animesh1191/customer_behaviour_analysis.git
+
+Step 2: Install Required Libraries
+pip install pandas numpy matplotlib seaborn
+
+Step 3: Launch Jupyter Notebook
+jupyter notebook
+
+Step 4: Setup PostgreSQL
+- Create a PostgreSQL database.
+- Run the SQL script.
+- Import the cleaned dataset.
+
+Step 5: Open Power BI Dashboard
+Open:
+Customer_Behaviour_Dashboard.pbix
+using Power BI Desktop.
+
+
+💼 Skills Demonstrated
+    
+Data Analytics
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis (EDA)
+- Data Storytelling
+
+Excel
+- Pivot Tables
+- Pivot Charts
+- Advanced Excel Functions
+- Conditional Formatting
+- KPI Development
+
+SQL & Database
+- PostgreSQL
+- SQL Query Writing
+- Aggregations
+- Joins
+- Business Analysis Queries
+
+Business Intelligence
+- Power BI
+- Dashboard Design
+- KPI Monitoring
+- Interactive Reporting
+
+- Programming
+- Python
+- Pandas
+- NumPy
+
+
+🌟 Project Outcomes
+
+✔ Improved understanding of customer purchasing behavior
+
+✔ Identified key revenue-driving categories
+
+✔ Discovered customer loyalty patterns
+
+✔ Analyzed seasonal demand fluctuations
+
+✔ Built a business-ready dashboard for decision-making
+
+✔ Demonstrated an end-to-end analytics workflow from Excel → SQL → Python → Power BI
+
+
+👨‍💻 Author
+Animesh Gond
+
+📧 Email: work.animeshgond1191@gmail.com
+
+🔗 LinkedIn: www.linkedin.com/in/animeshgond
+
+🔗 GitHub: Animesh1191 GitHub
+
+
+⭐ Support
+
+If you found this project useful, consider giving the repository a ⭐ on GitHub and connecting with me on LinkedIn.
+
+"Turning raw customer data into actionable business insights through analytics and visualization." 🚀📊
